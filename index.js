@@ -1,8 +1,10 @@
-function add(a,b){
-  console.log(arguments)
-  if(arguments.length != 2){
-    throw new Error("引数")
-  }
-  return a + b
-}
-console.log(add(1,2))
+var cvs = document.getElementById("canvas");
+var ctx = cvs.getContext("2d");
+ctx.beginPath();
+ctx.arc(100, 100, 60, Math.PI, 0, true);
+ctx.fill();
+;
+var ctx = cvs.getContext("2d");
+ctx.beginPath();
+ctx.arc(100, 100, 60, Math.PI, 0, true);
+ctx.fill();
